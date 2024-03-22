@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+#wrapper{
+    width: 400px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+#clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+ }
+
+.red{
+    height: 100px;
+    background-color: #ff0000;
+    margin-top: 50px;
+}
+.green{
+    width: 150px;
+    height: 250px;
+    background-color: #00ff51;
+    float: left;
+    
+}
+ .purple{
+    height: 50px;
+    background-color: #cc00db;
+} 
+
+.orange{
+    width: 100px;
+    height: 150px;
+    background-color: #ff9e6b;
+    float: right;
+}
+.blue{
+    height: 100px;
+    background-color: #0093b7;
+}
+.brown{
+    height: 100px;
+    background-color: #8c2727;
+}
+.yellow{
+    height: 100px;
+    background-color: #fff700;
+    
+}
