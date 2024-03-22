@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+#wrapper{
+    width: 400px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+#clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+ }
+
+ .red{
+    height: 100px;
+    background-color: #ff0000;
+    margin-top: 100px;
+ }
+
+ .green{
+    width: 150px;
+    height: 250px;
+    background-color: #00ff1e;
+    float: left;
+ }
+
+ .blue{
+    width: 250px;
+    height: 250px;
+    background-color: #3300ff;
+    float: left;
+ }
+
+ .yellow{
+    height: 100px;
+    background-color: ffe600;
+ }
