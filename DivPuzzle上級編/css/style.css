@@ -25,26 +25,21 @@
     top: 20px;
     right: 20px;
 }
-#p1{
+.p{
     width: 40px;
     height: 40px;
     background: #a9004b;
     float: left;
-    margin: 10px 5px 10px 10px;
+    margin: 10px 5px 0 10px;
 }
-#p2{
-    width: 40px;
-    height: 40px;
-    background: #a9004b;
-    float: left;
-    margin: 10px 5px 10px 5px;
+
+.p:nth-last-child(2) {
+    margin: 10px 5px 0 5px;
+    
 }
-#p3{
-    width: 40px;
-    height: 40px;
-    background: #a9004b;
-    float: left;
-    margin: 10px 10px 10px 5px;
+
+.p:last-child{
+    margin: 10px 10px 0 5px;
 }
 
 .green{
@@ -60,37 +55,20 @@
     float: left;
     position: relative;
 }
-
-#o1{
-    width: 140px;
-    height: 40px;
-    background: #ff863f;
-    border: 5px solid #ffffff;
+.orange{
     position: absolute;
     top: 40px;
     left: 40px;
-
 }
-#o2{
+.o{
     width: 140px;
     height: 40px;
     background: #ff863f;
     border: 5px solid #ffffff;
-    position: absolute;
-    left: 40px;
-    top: 100px;
-
+    margin-bottom: 10px;
 }
-#o3{
-    width: 140px;
-    height: 40px;
-    background: #ff863f;
-    border: 5px solid #ffffff;
-    position: absolute;
-    left: 40px;
-    top: 160px;
 
-}
+
 .yellow{
     padding: 50px;
     background-color: #ffd000;
